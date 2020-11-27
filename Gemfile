@@ -33,6 +33,8 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 # More stylish forms
 gem 'simple_form'
+# User authentication
+gem 'devise'
 
 group :development, :test do
   # Adds step-by-step debugging and stack navigation capabilities to pry using byebug
