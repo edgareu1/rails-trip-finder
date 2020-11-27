@@ -15,3 +15,13 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// External imports
+import "bootstrap";
+
+// Internal imports
+// import { initSelect2 } from '../components/init_select2';
+
+document.addEventListener('turbolinks:load', () => {
+  // initSelect2();
+});
