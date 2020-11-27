@@ -27,8 +27,22 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+# Parse CSS and add vendor prefixes to CSS rules
+gem 'autoprefixer-rails'
+# SASS-powered version of FontAwesome
+gem 'font-awesome-sass'
+# More stylish forms
+gem 'simple_form'
+# User authentication
+gem 'devise'
 
 group :development, :test do
+  # Adds step-by-step debugging and stack navigation capabilities to pry using byebug
+  gem 'pry-byebug'
+  # Instead of copying the initializer to every rails project
+  gem 'pry-rails'
+  # Shim to load environment variables from .env into ENV in development
+  gem 'dotenv-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
