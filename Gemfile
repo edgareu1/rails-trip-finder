@@ -32,6 +32,8 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 # User authentication
 gem 'devise'
+# A flexible tool to use React with Rails
+gem 'react-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
